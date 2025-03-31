@@ -75,4 +75,5 @@ Resumen de respuestas a las preguntas clave.
 Más de tres gráficos para visualizar tendencias.
 
 **📌 Este proyecto fue desarrollado por Ignacio Rivas Andrades.**
+
 ![Logo de Upgrade Hub](Upgrade_logo.png)

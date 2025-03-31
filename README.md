@@ -18,37 +18,60 @@ Bienvenido a **Impulso Estratégico**, un análisis de datos de campañas de mar
 
 ### 📄 Informe Final
 
+
 ## [🔍 Contexto](#contexto)
 
-El objetivo de este proyecto es analizar el rendimiento de campañas de marketing en función de diversas métricas clave: ROI, Tasa de conversión y Ventas. Además, estudiamos el impacto de la duración de las campañas y patrones estacionales en los resultados.
+El objetivo de este proyecto es analizar el rendimiento de campañas de marketing en función de diversas métricas clave: ROI, Tasa de conversión e Ingresos. Además, estudiamos el impacto de la duración de las campañas y patrones estacionales en los resultados.
+
 
 ## [📊 Base de Datos](#base-de-datos)
 
-Trabajamos con un dataset de campañas de marketing con las siguientes variables principales:
+Trabajamos con un dataset["Ir al archivo original](https://github.com/Ignacio538/Maketing-Campaigns/blob/main/data/marketingcampaigns.cvsv) de campañas de marketing con las siguientes variables principales:
 
-budget: Presupuesto de la campaña.
+- start_date y end_date: Fechas de inicio y fin.
 
-revenue: Ingresos generados.
+- budget: Presupuesto de la campaña.
 
-roi: Retorno de inversión.
+- roi: Retorno de inversión.
 
-conversion_rate: Tasa de conversión.
+- type: El tipo de campaña.
 
-start_date y end_date: Fechas de inicio y fin.
+- target_audience: A quién iba dirigida la campaña.
 
-Los datos han sido limpiados y almacenados en marketing_campaigns_clean.csv.
+- channel: El canal por lo que se ha hecho la campaña.
+
+- conversion_rate: Tasa de conversión.
+
+- revenue: Ingresos generados.
+
 
 ## [🛠️ Procesamiento de Datos](#procesamiento-de-datos)
 
-Se realizaron diversas transformaciones, incluyendo:
+· Primero realizamos una limpieza del archivo original, incluyendo:
 
-Eliminación de filas irrelevantes o con valores nulos.
+- Eliminación de filas duplicadas.
 
-Corrección de formatos.
+- Eliminación y/o corrección de outliers y valores nulos y/o erróneos.
 
-Creación de una columna net_profit.
+- Corrección de formatos.
 
-Agrupación de campañas por duración en intervalos de 60 días para analizar su impacto.
+
+· A continuación hemos creado una serie de indicadores que nos ayudarán a responder a las preguntas que queremos responder en este análisis, así como futuras preguntas que puedan surgir:
+
+- Creación de una columna net_profit (beneficio neto).
+
+- Cálculo de valores estacionales como los meses o los trimestres.
+
+- Cálculo de los días que han durado las campañas.
+
+- Agrupación de campañas por duración en intervalos de 60 días para analizar su impacto.
+
+
+Los datos limpiados junto con las nuevas variables creadas han sido almacenados en marketing_campaigns_clean.csv["Ir al archivo limpio](https://github.com/Ignacio538/Maketing-Campaigns/blob/main/data/marketing_campaigns_clean.cvsv).
+
+Todo este análisis está en en el notebook llamado "Analysis"["Ir al notebook "Analysis"](https://github.com/Ignacio538/Maketing-Campaigns/blob/main/notebooks/Analysis.ipynb).
+
+
 
 ## [📈 Análisis y Resultados](#-análisis-y-resultados)
 
@@ -56,13 +79,19 @@ Se respondieron siete preguntas clave sobre el rendimiento de las campañas medi
 
 Entre los hallazgos más relevantes:
 
-La relación entre duración de campaña y ROI.
+- La escasa correlación del ROI con los ingresos o la tasa de conversión.
 
-Patrones estacionales en conversiones e ingresos.
+- La fuerte diferencia que hay en la tasa de conversión para el público B2C cuando el canal es "Paid" o cuando es "Organic".
 
-Diferencias en rendimiento según presupuesto asignado.
+- En cuanto a las campañas más exitosas, el canal está muy diferenciado.
 
-Los análisis se encuentran en el notebook correspondiente.
+- La prácticamente inexistente correlación entre el presupuesto y los ingresos.
+
+- Las ventas están cayendo mientras que el ROI sube.
+
+
+Los análisis se encuentran en el notebook llamado "Tasks"["Ir al notebook "Tasks"](https://github.com/Ignacio538/Maketing-Campaigns/blob/main/notebooks/Tasks.ipynb).
+
 
 ## [📄 Informe Final](#-informe-final)
 

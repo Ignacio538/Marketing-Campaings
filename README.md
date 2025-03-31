@@ -4,9 +4,9 @@
 
 ### 📌 Sobre el Proyecto
 
-Bienvenido a **Impulso Estratégico**, un análisis de datos de campañas de marketing centrado en el rendimiento y los patrones estacionales. En este proyecto, hemos aplicado técnicas de limpieza, transformación y análisis de datos para obtener información clave sobre la efectividad de distintas estrategias de marketing.
+Bienvenido a **Impulso Estratégico**, un análisis de datos de campañas de marketing centrado en el rendimiento. En este proyecto, hemos aplicado técnicas de limpieza, transformación y análisis de datos para obtener información clave sobre la efectividad de distintas estrategias de marketing.
 
-### 📂 Contenido
+## 📂 Contenido
 
 ### 🔍 Contexto
 
@@ -18,11 +18,11 @@ Bienvenido a **Impulso Estratégico**, un análisis de datos de campañas de mar
 
 ### 📄 Informe Final
 
-## 🔍 Contexto
+## [🔍 Contexto](#contexto)
 
-El objetivo de este proyecto es analizar el rendimiento de campañas de marketing en función de diversas métricas clave: ROI, conversion_rate y revenue. Además, estudiamos el impacto de la duración de las campañas y patrones estacionales en los resultados.
+El objetivo de este proyecto es analizar el rendimiento de campañas de marketing en función de diversas métricas clave: ROI, Tasa de conversión y Ventas. Además, estudiamos el impacto de la duración de las campañas y patrones estacionales en los resultados.
 
-## 📊 Base de Datos
+## [📊 Base de Datos](#base-de-datos)
 
 Trabajamos con un dataset de campañas de marketing con las siguientes variables principales:
 
@@ -38,7 +38,7 @@ start_date y end_date: Fechas de inicio y fin.
 
 Los datos han sido limpiados y almacenados en marketing_campaigns_clean.csv.
 
-## 🛠️ Procesamiento de Datos
+## [🛠️ Procesamiento de Datos](#procesamiento-de-datos)
 
 Se realizaron diversas transformaciones, incluyendo:
 
@@ -50,7 +50,7 @@ Creación de una columna net_profit.
 
 Agrupación de campañas por duración en intervalos de 60 días para analizar su impacto.
 
-## 📈 Análisis y Resultados
+## [📈 Análisis y Resultados](#-análisis-y-resultados)
 
 Se respondieron siete preguntas clave sobre el rendimiento de las campañas mediante visualizaciones y métricas.
 
@@ -64,7 +64,7 @@ Diferencias en rendimiento según presupuesto asignado.
 
 Los análisis se encuentran en el notebook correspondiente.
 
-## 📄 Informe Final
+## [📄 Informe Final](#-informe-final)
 
 El informe incluye:
 

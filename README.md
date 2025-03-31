@@ -26,7 +26,7 @@ El objetivo de este proyecto es analizar el rendimiento de campañas de marketin
 
 ## [📊 Base de Datos](#base-de-datos)
 
-Trabajamos con un dataset["Ir al archivo original](https://github.com/Ignacio538/Maketing-Campaigns/blob/main/data/marketingcampaigns.cvsv) de campañas de marketing con las siguientes variables principales:
+Trabajamos con un dataset["Ir al archivo original"](https://github.com/Ignacio538/Maketing-Campaigns/blob/main/data/marketingcampaigns.cvsv) de campañas de marketing con las siguientes variables principales:
 
 - start_date y end_date: Fechas de inicio y fin.
 
@@ -47,7 +47,7 @@ Trabajamos con un dataset["Ir al archivo original](https://github.com/Ignacio538
 
 ## [🛠️ Procesamiento de Datos](#procesamiento-de-datos)
 
-· Primero realizamos una limpieza del archivo original, incluyendo:
+-- Primero realizamos una limpieza del archivo original, incluyendo:
 
 - Eliminación de filas duplicadas.
 
@@ -56,7 +56,7 @@ Trabajamos con un dataset["Ir al archivo original](https://github.com/Ignacio538
 - Corrección de formatos.
 
 
-· A continuación hemos creado una serie de indicadores que nos ayudarán a responder a las preguntas que queremos responder en este análisis, así como futuras preguntas que puedan surgir:
+-- A continuación hemos creado una serie de indicadores que nos ayudarán a responder a las preguntas que queremos responder en este análisis, así como futuras preguntas que puedan surgir:
 
 - Creación de una columna net_profit (beneficio neto).
 
@@ -67,9 +67,9 @@ Trabajamos con un dataset["Ir al archivo original](https://github.com/Ignacio538
 - Agrupación de campañas por duración en intervalos de 60 días para analizar su impacto.
 
 
-Los datos limpiados junto con las nuevas variables creadas han sido almacenados en marketing_campaigns_clean.csv["Ir al archivo limpio](https://github.com/Ignacio538/Maketing-Campaigns/blob/main/data/marketing_campaigns_clean.cvsv).
+Los datos limpiados junto con las nuevas variables creadas han sido almacenados en marketing_campaigns_clean.csv["Ir al archivo limpio"](https://github.com/Ignacio538/Maketing-Campaigns/blob/main/data/marketing_campaigns_clean.cvsv).
 
-Todo este análisis está en en el notebook llamado "Analysis"["Ir al notebook "Analysis"](https://github.com/Ignacio538/Maketing-Campaigns/blob/main/notebooks/Analysis.ipynb).
+Todo este análisis está en en el notebook llamado "Analysis"["Ir al notebook Analysis"](https://github.com/Ignacio538/Maketing-Campaigns/blob/main/notebooks/Analysis.ipynb).
 
 
 
@@ -90,7 +90,7 @@ Entre los hallazgos más relevantes:
 - Las ventas están cayendo mientras que el ROI sube.
 
 
-Los análisis se encuentran en el notebook llamado "Tasks"["Ir al notebook "Tasks"](https://github.com/Ignacio538/Maketing-Campaigns/blob/main/notebooks/Tasks.ipynb).
+Los análisis se encuentran en el notebook llamado "Tasks"["Ir al notebook Tasks"](https://github.com/Ignacio538/Maketing-Campaigns/blob/main/notebooks/Tasks.ipynb).
 
 
 ## [📄 Informe Final](#-informe-final)

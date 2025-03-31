@@ -1,28 +1,28 @@
-#**Impulso Estratégico**
+# **Impulso Estratégico**
 
 
 
-###📌 Sobre el Proyecto
+### 📌 Sobre el Proyecto
 
 Bienvenido a **Impulso Estratégico**, un análisis de datos de campañas de marketing centrado en el rendimiento y los patrones estacionales. En este proyecto, hemos aplicado técnicas de limpieza, transformación y análisis de datos para obtener información clave sobre la efectividad de distintas estrategias de marketing.
 
-###📂 Contenido
+### 📂 Contenido
 
-###🔍 Contexto
+### 🔍 Contexto
 
-###📊 Base de Datos
+### 📊 Base de Datos
 
-###🛠️ Procesamiento de Datos
+### 🛠️ Procesamiento de Datos
 
-###📈 Análisis y Resultados
+### 📈 Análisis y Resultados
 
-###📄 Informe Final
+### 📄 Informe Final
 
-##🔍 Contexto
+## 🔍 Contexto
 
 El objetivo de este proyecto es analizar el rendimiento de campañas de marketing en función de diversas métricas clave: ROI, conversion_rate y revenue. Además, estudiamos el impacto de la duración de las campañas y patrones estacionales en los resultados.
 
-##📊 Base de Datos
+## 📊 Base de Datos
 
 Trabajamos con un dataset de campañas de marketing con las siguientes variables principales:
 
@@ -38,7 +38,7 @@ start_date y end_date: Fechas de inicio y fin.
 
 Los datos han sido limpiados y almacenados en marketing_campaigns_clean.csv.
 
-🛠️ Procesamiento de Datos
+## 🛠️ Procesamiento de Datos
 
 Se realizaron diversas transformaciones, incluyendo:
 
@@ -50,7 +50,7 @@ Creación de una columna net_profit.
 
 Agrupación de campañas por duración en intervalos de 60 días para analizar su impacto.
 
-##📈 Análisis y Resultados
+## 📈 Análisis y Resultados
 
 Se respondieron siete preguntas clave sobre el rendimiento de las campañas mediante visualizaciones y métricas.
 
@@ -64,7 +64,7 @@ Diferencias en rendimiento según presupuesto asignado.
 
 Los análisis se encuentran en el notebook correspondiente.
 
-##📄 Informe Final
+## 📄 Informe Final
 
 El informe incluye:
 
@@ -75,4 +75,4 @@ Resumen de respuestas a las preguntas clave.
 Más de tres gráficos para visualizar tendencias.
 
 **📌 Este proyecto fue desarrollado por Ignacio Rivas Andrades.**
-[Upgrade_logo.png]
+(Upgrade_logo.png)

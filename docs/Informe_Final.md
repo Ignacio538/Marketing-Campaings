@@ -39,7 +39,7 @@ Si analizamos la correlación del ROI con el presupuesto y la tasa de conversió
 
 ![ROI_Budget_correlation](https://github.com/Ignacio538/Marketing-Campaings/blob/main/docs/ROI_Budget_correlation.png) ![ROI_Conversion_correlation](https://github.com/Ignacio538/Marketing-Campaings/blob/main/docs/ROI_Conversion_correlation.png)
 
-El "roi" está distribuido de manera bastante uniforme entre todas las variables, lo que dificulta identificar los factores que contribuyen a un alto "roi".
+El ROI está distribuido de manera bastante uniforme entre todas las variables, lo que dificulta identificar los factores que contribuyen a un alto ROI.
 
 ![ROI_Columns_correlation](https://github.com/Ignacio538/Marketing-Campaings/blob/main/docs/ROI_Columns_correlation.png)
 
@@ -98,3 +98,17 @@ Si obsevamos el "roi" por mes y trimestre, podemos ver que el segundo trimestre 
 ![Duration_campaigns](https://github.com/Ignacio538/Marketing-Campaings/blob/main/docs/Duration_campaigns.png)
 
 Si miramos la duración de las campañas, podemos ver que aquellas que duran entre 660 y 720 días son las que más "revenue" y "roi" tienen. Sin embargo, las campañas que duran entre 120 y 180 o entre 240 y 300 días, son las que más "conversion_rate" tienen.
+
+## **Conclusión Final:**
+
+El análisis de las campañas de marketing revela patrones y tendencias clave que pueden ayudar a optimizar la estrategia de marketing de la empresa. Algunos de los hallazgos más importantes incluyen:
+
+- Canales más efectivos: Aunque el canal "promotion" es el más utilizado, el canal "referral" destaca por generar el mejor ROI. Esto sugiere que las estrategias de marketing basadas en recomendaciones o referencias pueden ser particularmente rentables.
+
+- Mejor tipo de campaña: El tipo de campaña "social media" es el que más ingresos genera, mientras que "webinar" tiene la mejor tasa de conversión. Esto podría indicar que, mientras las campañas en redes sociales son cruciales para generar ventas, los webinars son más efectivos para convertir a los usuarios en clientes.
+
+- ROI y presupuesto: Aunque el presupuesto no parece tener una relación directa con los ingresos, es importante señalar que algunas de las campañas más exitosas en términos de ingresos tienen presupuestos modestos, lo que demuestra que la eficacia de la campaña no siempre depende de la cantidad invertida.
+
+- Correlaciones estacionales: Se observa que el rendimiento de las campañas varía según la época del año, con el segundo trimestre siendo el más exitoso en términos de ROI. Esto es relevante para planificar futuras campañas y maximizar el impacto durante estos períodos.
+
+- Campañas exitosas: Las campañas que cumplen con ciertos criterios como un ROI superior a 0.5, ingresos por encima de 500,000, una tasa de conversión alta y un presupuesto moderado son las más exitosas. Las campañas que se enfocan en el canal "referral" y en audiencias "B2B" tienen el mejor rendimiento.

@@ -95,7 +95,7 @@ Los análisis se encuentran en el notebook llamado ["Tasks"](https://github.com/
 
 ## [📄 Informe Final](#-informe-final)
 
-El informe incluye:
+El [informe]((https://github.com/Ignacio538/Marketing-Campaings/blob/main/docs/Informe_Final.md)) incluye:
 
 Número de filas eliminadas durante la limpieza.
 

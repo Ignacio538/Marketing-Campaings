@@ -55,6 +55,7 @@ Trabajamos con un ["dataset"](https://github.com/Ignacio538/Marketing-Campaings/
 
 · Corrección de formatos.
 
+En total hemos eliminado **35 líneas**.
 
 - A continuación hemos creado una serie de indicadores que nos ayudarán a responder a las preguntas que queremos responder en este análisis, así como futuras preguntas que puedan surgir:
 
@@ -97,11 +98,9 @@ Los análisis se encuentran en el notebook llamado ["Tasks"](https://github.com/
 
 El [informe](https://github.com/Ignacio538/Marketing-Campaings/blob/main/docs/Informe_Final.md) incluye:
 
-Número de filas eliminadas durante la limpieza.
-
 Resumen de respuestas a las preguntas clave.
 
-Más de tres gráficos para visualizar tendencias.
+Gráficos para visualizar tendencias.
 
 **📌 Este proyecto fue desarrollado por Ignacio Rivas Andrades.**
 

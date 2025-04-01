@@ -37,7 +37,7 @@ Si hacemos la media del la tasa de conversión por tipo de campaña, observamos 
 
 Si analizamos la correlación del ROI con el presupuesto y la tasa de conversión, vemos que no hay una clara correlación. 
 
-![ROI_Budget_correlation](https://github.com/Ignacio538/Marketing-Campaings/blob/main/docs/ROI_Budget_correlation.png) ![ROI_Conversion_correlation](https://github.com/Ignacio538/Marketing-Campaings/blob/main/docs/ROI_Conversion_correlation.mpng)
+![ROI_Budget_correlation](https://github.com/Ignacio538/Marketing-Campaings/blob/main/docs/ROI_Budget_correlation.png) ![ROI_Conversion_correlation](https://github.com/Ignacio538/Marketing-Campaings/blob/main/docs/ROI_Conversion_correlation.png)
 
 El "roi" está distribuido de manera bastante uniforme entre todas las variables, lo que dificulta identificar los factores que contribuyen a un alto "roi".
 
